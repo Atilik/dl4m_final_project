@@ -1,0 +1,42 @@
+outputFormat: json
+outputFrames: 0
+analysisSampleRate: 44100.0
+
+lowlevel:
+    frameSize: 2048
+    hopSize: 1024
+    zeroPadding: 0
+    windowType: blackmanharris62
+    silentFrames: noise
+
+rhythm:
+    method: degara
+    minTempo: 40
+    maxTempo: 208
+
+tonal:
+    frameSize: 4096
+    hopSize: 2048
+    zeroPadding: 0
+    windowType: blackmanharris62
+    silentFrames: noise
+
+# highlevel:
+#     compute: 1
+#     svm_models: ['svm_models-v2.1_beta5/svm_models/genre_tzanetakis.history',
+#                  'svm_models-v2.1_beta5/svm_models/mood_sad.history',
+#                  'svm_models-v2.1_beta5/svm_models/genre_dortmund.history',
+#                  'svm_models-v2.1_beta5/svm_models/genre_rosamerica.history',
+#                  'svm_models-v2.1_beta5/svm_models/genre_tzanetakis.history',
+#                  'svm_models-v2.1_beta5/svm_models/moods_mirex.hisyory',
+#                  'svm_models-v2.1_beta5/svm_models/ismir04_rhythm.history',
+#                  'svm_models-v2.1_beta5/svm_models/mood_acoustic.history',
+#                  'svm_models-v2.1_beta5/svm_models/mood_aggressive.history',
+#                  'svm_models-v2.1_beta5/svm_models/mood_electronic.history',
+#                  'svm_models-v2.1_beta5/svm_models/mood_happy.history',
+#                  'svm_models-v2.1_beta5/svm_models/mood_party.history',
+#                  'svm_models-v2.1_beta5/svm_models/mood_relaxed.history',
+#                  'svm_models-v2.1_beta5/svm_models/mood_sad.history',
+#                  'svm_models-v2.1_beta5/svm_models/timbre.history',
+#                  'svm_models-v2.1_beta5/svm_models/tonal_atonal.history',
+#                  'svm_models-v2.1_beta5/svm_models/voice_instrumental.history']
