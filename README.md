@@ -26,9 +26,9 @@ This project builds a multi-class classification model to predict the decade (19
 | Model               | Structure                                                        | Optimizer | Loss Function                    |
 |---------------------|------------------------------------------------------------------|-----------|----------------------------------|
 | Baseline            | 2 Dense layer                                                    | Adam      | Sparse Categorical Cross-entropy |
-| Model 1             | 4 Dense + Batch Normalization + Dropouts (_lr_ = 0.001)          | Adam      | Sparse Categorical Cross-entropy |
-| Model 2             | 8 Dense layer + Batch Normalization + Dropouts                   | Adam      | Sparse Categorical Cross-entropy |
-| Model 3             | 4 Dense + Batch Normalization + Skip + Dropouts                  | Adam      | Sparse Categorical Cross-entropy |
+| Better Model        | 4 Dense + Batch Normalization + Dropouts (_lr_ = 0.001)          | Adam      | Sparse Categorical Cross-entropy |
+| Deeper MLP          | 8 Dense layer + Batch Normalization + Dropouts                   | Adam      | Sparse Categorical Cross-entropy |
+| Resnet MLP          | 4 Dense + Batch Normalization + Skip + Dropouts                  | Adam      | Sparse Categorical Cross-entropy |
 | Transformer Encoder | Dense + Multi-Head Attention + Layer Normalization + Dropout     | Adam      | Sparse Categorical Cross-entropy |
 
 ## Datasets
@@ -63,7 +63,7 @@ Instead of a simple binary hit/not-hit label, this task is formulated as a multi
 | Macro Avg    | 0.51      | 0.50   | 0.48     | 667     |
 | Weighted Avg | 0.53      | 0.57   | 0.52     | 667     |
 
-### Model_1
+### Better Model
 
 | Decade | Precision | Recall | F1-Score | Support |
 |--------|-----------|--------|----------|---------|
@@ -80,7 +80,7 @@ Instead of a simple binary hit/not-hit label, this task is formulated as a multi
 | Weighted Avg | 0.62      | 0.55   | 0.56     | 667     |
 
 
-### Model_2
+### Deeper MLP
 
 | Decade | Precision | Recall | F1-Score | Support |
 |--------|-----------|--------|----------|---------|
@@ -98,7 +98,7 @@ Instead of a simple binary hit/not-hit label, this task is formulated as a multi
 | Weighted Avg | 0.63      | 0.55   | 0.56     | 667     |
 
 
-### Model_3
+### Resnet MLP
 
 | Decade | Precision | Recall | F1-Score | Support |
 |--------|-----------|--------|----------|---------|
