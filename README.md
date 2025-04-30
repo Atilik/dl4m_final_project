@@ -140,7 +140,7 @@ Instead of a simple binary hit/not-hit label, this task is formulated as a multi
 - Meaningful data is more important than the amount of the data.
 - Feature normaliation or scaling affects learning.
 
-## Role (Alphabetic Order)
+## Role (Alphabetical Order)
 
 - Dataset collection : Atilay, Yujin
 - Data Preprocessing : Atilay, Yujin
