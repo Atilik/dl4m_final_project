@@ -15,9 +15,9 @@ This project builds a multi-class classification model to predict the decade (19
 
 
 ## Components
+- Final_roject.ipynb: Main notebook that executes the full workflow (data loading → preprocessing → model training and evaluation).
 - model.py: Defines the deep learning model architecture.
 - utils.py: Utility functions for data processing, model evaluation, etc. Script for extracting audio features from song data.
-- Final_roject.ipynb: Main notebook that executes the full workflow (data loading → preprocessing → model training and evaluation).
 
 ### Model Structure
 
