@@ -21,8 +21,6 @@ This project builds a multi-class classification model to predict the decade (19
 
 ### Model Structure
 
-### Model Architectures
-
 | Model               | Structure                                                        | Optimizer | Loss Function                    |
 |---------------------|------------------------------------------------------------------|-----------|----------------------------------|
 | Baseline            | 2 Dense layer                                                    | Adam      | Sparse Categorical Cross-entropy |
