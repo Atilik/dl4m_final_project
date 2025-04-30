@@ -28,7 +28,7 @@ This project builds a multi-class classification model to predict the decade (19
 | Baseline            | 2 Dense layer                                                    | Adam      | Sparse Categorical Cross-entropy |
 | Better Model        | 4 Dense + Batch Normalization + Dropouts                         | Adam      | Sparse Categorical Cross-entropy |
 | Deeper MLP          | 8 Dense layer + Batch Normalization + Dropouts                   | Adam      | Sparse Categorical Cross-entropy |
-| Residual MLP        | 4 Dense + Batch Normalization + Skip + Dropouts                  | Adam      | Sparse Categorical Cross-entropy |
+| Residual MLP        | 1 Residual Block + 2 Dense Layer <br>+ Batch Normalization + Skip + Dropouts                  | Adam      | Sparse Categorical Cross-entropy |
 | Transformer Encoder | Dense + Multi-Head Attention + Layer Normalization + Dropout     | Adam      | Sparse Categorical Cross-entropy |
 
 ## Datasets
