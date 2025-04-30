@@ -45,30 +45,6 @@ Each song is labeled according to the decade or period during which it became a 
 Instead of a simple binary hit/not-hit label, this task is formulated as a multi-class classification problem, predicting whether a song would most likely succeed in the 1980s, 1990s, 2000s, or 2010s.
  
 
-## Installation
-To run this project, you will need Python and a few essential libraries. Install the dependencies with:
-
-
-1. Clone the repository:
-
-   ```bash
-pip install -r requirements.txt
-    ```
-    or manually install the following packages:
-    
-    ```bash
-    pip install numpy pandas scikit-learn tensorflow matplotlib
-
-    ```
-    
-**Note:**  
-If you are running this notebook on Google Colab, you may need to mount your Google Drive to access external files:
-
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-```
-
 ## Results
 
 ### Baseline
